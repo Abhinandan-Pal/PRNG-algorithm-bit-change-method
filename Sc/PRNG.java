@@ -36,7 +36,7 @@ public class PRNG
             return (n & ~mask) |  
                    ((ChangeTo << p) & mask); 
     } 
-    int nextRand()
+    double nextRand()
     {
         /*
          * To find the next random number based on the previos number 
@@ -51,7 +51,8 @@ public class PRNG
             n = modifyBit(n,pos);
         }
         key = n;
-        return key;
+        
+        return key/2147483647.0;
     }
     public static void main(String args[])
     {
