@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PRNG
+comment0.text=\r\n\ @author\ Abhinandan\ Pal\ (https\://github.com/Abhinandan-Pal)\r\n
+comment1.params=
+comment1.target=java.lang.String\ KeyCGenerate()
+comment2.params=n\ p
+comment2.target=int\ modifyBit(int,\ int)
+comment3.params=
+comment3.target=double\ nextRand()
+comment4.params=min\ max
+comment4.target=double\ nextRand(int,\ int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
